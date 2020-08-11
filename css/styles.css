@@ -1,0 +1,73 @@
+*,html {
+    box-sizing: border-box;
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background: green;
+    display: flex;
+    flex-direction: row;
+    
+    padding: 2%;
+    height: 100vh;
+    width: 100%;
+}
+
+
+#div-controles {
+    background: yellow;
+    position: relative;
+    width: 10%;
+}
+
+#controles {
+    background: #cccccc;
+    overflow: hidden;
+    position: absolute;
+    
+    transition: 1s width ease;
+}
+
+
+#tablero {
+    background: lime;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 88%;
+}
+
+.col {
+    border: 1px solid gray;
+    width: 16%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.valor {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
